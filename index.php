@@ -47,7 +47,7 @@
             <h3>Calves</h3>
             <p>
                 The calf table is empty to begin with. You may add calves by following the link
-                <a href="admin_area/addCalfWebpage.php">here</a> or by navigating to the menu at the
+                <a href="insertions/add_calf_webpage.php">here</a> or by navigating to the menu at the
                 top of the page. Each calf has a tag number and a name which you can choose. You must
                 enter the mother's name when adding a calf to the database. It is assumed that all
                 calves are the same breed as their mother. You must also enter the calf's date of
