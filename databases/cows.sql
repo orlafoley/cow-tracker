@@ -1,6 +1,6 @@
+DROP TABLE IF EXISTS `parent_child`;
 DROP TABLE IF EXISTS `cows`;
 DROP TABLE IF EXISTS `calf`;
-DROP TABLE IF EXISTS `parent_child`;
 
 CREATE TABLE `cows` (
     `tag` INT(3) NOT NULL UNIQUE,
