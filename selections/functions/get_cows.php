@@ -28,9 +28,9 @@ function get_cows(): void {
         // Keep appending the query output while we have rows in the table
         while($row = mysqli_fetch_array($result)) {
             $output .= '<tr>
-                            <th>' . $row["tag"] . '</th>
-                            <th>' . $row["name"] . '</th>
-                            <th>' . $row["breed"] . '</th>
+                            <td>' . $row["tag"] . '</td>
+                            <td>' . $row["name"] . '</td>
+                            <td>' . $row["breed"] . '</td>
                         </tr>';
         }
     }
