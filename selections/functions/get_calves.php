@@ -16,8 +16,7 @@ function get_calves() {
                             <th>Name</th>
                             <th>Breed</th>
                             <th>Date of Birth</th>
-                        </tr>
-                    </table>";
+                        </tr>";
 
         // Start listing out calves one by one
         while($row = mysqli_fetch_assoc($result)) {
