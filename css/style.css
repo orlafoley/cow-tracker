@@ -115,3 +115,22 @@ p a:hover {
     color: #474F40;
     text-decoration: underline;
 }
+
+/* Table styling is located here */
+
+table{
+    border: 1px solid #474f40;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #474f40;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #dcdccb;
+    color: #474f40;
+}
