@@ -134,3 +134,41 @@ table th {
     background-color: #dcdccb;
     color: #474f40;
 }
+
+/* Form styling is located here */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Form inputs are styled from here */
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    font-family: Roboto Regular, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #474F40;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    font-family: Cinzel, serif;
+    background-color: #DCDCCB;
+    color: #474F40;
+    border: 1px solid #474F40;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #474F40;
+    color: #DCDCCB;
+}
