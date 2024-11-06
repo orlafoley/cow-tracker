@@ -1,0 +1,174 @@
+/* Custom fonts imported here */
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Farmhouse;
+    src: url("../fonts/Farmhouse.otf");
+}
+
+@font-face {
+    font-family: Farmhouse Cursive;
+    src: url("../fonts/Farmhouse.ttf");
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf");
+}
+
+/* Standard HTML tags styled from here */
+
+html {
+    font-family: Roboto Regular, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: floralwhite;
+    background-image: url("../images/greencow.png");
+    background-size: cover;
+    align-content: center;
+}
+
+/* Menu of project styled from here */
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    position: relative;
+    table-layout: fixed;
+    top: 0;
+    margin: 0 0 40px 0;
+    padding: 40px 0;
+    background-color: #DCDCCB;
+    border-bottom: 1px solid #474F40;
+}
+
+.logo {
+    font-family: Farmhouse Cursive, serif;
+    font-size: 32pt;
+    padding-left: 20px;
+    padding-right: 10px;
+    top: 0;
+    text-align: left;
+    align-content: start;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-family: Farmhouse, serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: right;
+    align-content: end;
+    align-items: end;
+    color: #474F40;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: #333333;
+}
+
+/* Standard body tags styled from here */
+
+main {
+    background-color: #F3EBEB;
+    border: 1px solid #474F40;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Cinzel, serif;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: Cinzel, serif;
+    font-size: 24pt;
+}
+
+h3 {
+    font-family: Cinzel, serif;
+    font-size: 16pt;
+}
+
+p a {
+    color: #474F40;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #474F40;
+    text-decoration: underline;
+}
+
+/* Table styling is located here */
+
+table{
+    border: 1px solid #474f40;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #474f40;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #dcdccb;
+    color: #474f40;
+}
+
+/* Form styling is located here */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Form inputs are styled from here */
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    font-family: Roboto Regular, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #474F40;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    font-family: Cinzel, serif;
+    background-color: #DCDCCB;
+    color: #474F40;
+    border: 1px solid #474F40;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #474F40;
+    color: #DCDCCB;
+}
